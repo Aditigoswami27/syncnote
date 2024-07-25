@@ -2,7 +2,7 @@
 SyncNotes:
 SyncNotes is a Chrome extension designed to streamline note-taking while browsing. Ideal for online studies and research, SyncNotes allows users to create, update, delete, and view notes directly from their browser. This eliminates the need to take screenshots and saves storage on your phone.
 
-Demo
+Demo:
 Check out the production and running prototype of SyncNotes on LinkedIn - 
 
 Features :
@@ -34,7 +34,7 @@ Setup Instructions
           1. npm install
           2. Add "type": "module" to package.json
     
- 4. Download jQuery and Axios:
+ 4. Download jQuery and Axios:(https://code.jquery.com/jquery-3.6.0.min.js) ,(https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js)
          
  5. Set Up PostgreSQL:
       1. Create a Database: Log in to your PostgreSQL instance and create a database.
