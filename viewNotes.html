@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Notes</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#notesContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.note-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.note-title {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #007BFF;
+    margin-bottom: 10px;
+    list-style-type: none; 
+}
+
+.note-content {
+    display: none;
+    font-size: 16px;
+    line-height: 1.5;
+} /*Hides the content initially and sets font size and line height.*/
+
+#loading {
+    font-size: 18px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <h1 style="margin-left: 30px;">All My Notes</h1><hr>
+    <div id="loading">Loading notes...</div>
+    <div id="notesContainer"></div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="viewNotes.js"></script>
+</body>
+</html>
