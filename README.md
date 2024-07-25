@@ -4,6 +4,7 @@ SyncNotes is a Chrome extension designed to streamline note-taking while browsin
 
 Demo:
 Check out the production and running prototype of SyncNotes on LinkedIn - 
+(https://www.linkedin.com/posts/aditi-goswami-850076261_syncnotes-chromeextension-webdevelopment-activity-7222294131354533888-wa69?utm_source=share&utm_medium=member_ios)
 
 Features :
  1. Create Notes: Add new notes directly from the browser with titles and descriptions.
